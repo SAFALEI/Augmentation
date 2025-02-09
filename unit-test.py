@@ -25,4 +25,4 @@ cv2.imwrite("original.png",image)
 cv2.imshow("original", image)
 cv2.waitKey(0)
 
-print("edited in origin")
+print("edited in origin 2")
