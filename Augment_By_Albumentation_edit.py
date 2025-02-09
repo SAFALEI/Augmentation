@@ -53,7 +53,7 @@ def get_max_class_count(class_counts):
 def tensor_to_numpy(tensor):
     return tensor.permute(1, 2, 0).cpu().numpy()
 
-
+print("edit in origin 4")
 # Function to augment dataset for a given class
 def augment_class(input_folder, output_folder, transform, target_class_count):
     os.makedirs(output_folder, exist_ok=True)
