@@ -11,3 +11,5 @@ extracted_text_easyocr = reader.readtext(image_path, detail=0)
 
 # Print the extracted text
 print(' '.join(extracted_text_easyocr))
+
+print("a new line")
