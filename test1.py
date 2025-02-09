@@ -13,3 +13,5 @@ extracted_text_easyocr = reader.readtext(image_path, detail=0)
 print(' '.join(extracted_text_easyocr))
 
 print("a new line")
+
+print("edited in local")
