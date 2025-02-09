@@ -1,0 +1,4 @@
+✅️RandomBrightnessContrast: Randomly changes the brightness and contrast of the input image
+	inputs = brightness_limit [-1,1], contrast_limit [-1,1], p(Probability of applying the 		transform)
+
+

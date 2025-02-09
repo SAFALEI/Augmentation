@@ -24,6 +24,7 @@ def test_normalize_angle():
     # Test case 3: Angle less than -180 degrees
     assert normalize_angle(-190) == 170
     assert normalize_angle(-360) == 0
+    
     assert normalize_angle(-450) == -90
 
     # Test case 4: Angle exactly at the boundaries
