@@ -52,6 +52,8 @@ def get_max_class_count(class_counts):
 # Function to convert tensor to numpy array
 def tensor_to_numpy(tensor):
     return tensor.permute(1, 2, 0).cpu().numpy()
+print("edited in local 3")
+
 
 
 # Function to augment dataset for a given class
